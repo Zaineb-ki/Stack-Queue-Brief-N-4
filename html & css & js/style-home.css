@@ -3,7 +3,9 @@ body{
     font-family: "American Typewriter";
 }
 
-
+.logo{
+    margin-left: 70px;
+}
 
 /* nav-bar section */
 .nav-bar{
@@ -25,7 +27,7 @@ body{
     font-size: 20px;
     list-style: none;
     justify-content: space-evenly;
-    
+    margin-top: 40px;
 
 }
 
@@ -36,4 +38,19 @@ body{
 
 .nav-bar .active a{
     color: #FF4F59;
+    font-size: 25px;
+    font-family: Poppins Regular ;
+    margin-left: 560px;
+
+}
+.nav-bar .pdc {
+    color: #000000;
+    font-size: 25px;
+    font-family: Poppins Regular;
+    margin-left: 100px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+
 }
