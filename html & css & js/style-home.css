@@ -14,56 +14,41 @@ body{
 }
 
 .nav-bar img{
-    width: 100%;
-    margin-bottom:-25%;
-    margin-top: -25%;
+    width: 40%;
 }
 
 .nav-bar ul{
+    display: flex;
     justify-content: center;
-    margin-left:30%;
-    padding: 0px;
-    list-style: none;
 }
-.nav-bar .ul2{
-    justify-content: center;
-    list-style: none;
-    margin-left: 0%;
-}
-.nav-bar .ul2 li a{
-  width: 270px;
-}
-
 
 .nav-bar ul li {
     font-family: "poppins";
     font-size: 20px;
-    float: left;
-    width:270px;
-    height :40px;
-    background-color:#FFD0BE;
-    line-height: 40px;
-    text-align: center;
+    list-style: none;
+    justify-content: space-evenly;
+    margin-top: 40px;
 
 }
 
 .nav-bar ul li a {
     text-decoration: none;
-    color: white;
-    display: block;
-    width: 270px;
-}
-.nav-bar ul li a:hover{
-    background-color: black;
-}
-.nav-bar ul li ul li{
-    display: none;
-}
-.nav-bar ul li:hover ul li{
-    display: block;
+    color: #707070;
 }
 
+.nav-bar .active a{
+    color: #FF4F59;
+    font-size: 25px;
+    font-family: Poppins Regular ;
+    margin-left: 560px;
 
+}
+.nav-bar .pdc {
+    color: #000000;
+    font-size: 25px;
+    font-family: Poppins Regular;
+    margin-left: 100px;
+}
 /***************************Start Style Header***********************************/
 .slide{
     background-color: #FFD0BE;
@@ -91,7 +76,7 @@ body{
     width: 50%;
 }
 .slide .img img{
-    width: 100%;
+    width: 90%;
 }
 /***************************Start Style section podcast***********************************/
 .section{
@@ -111,9 +96,6 @@ body{
 }
 .section .div1 .img2{
       border: 1px solid black;
-  }
-  .div1 :hover .img1{
-    transform: scale(1.3);
   }
 /*********************Start Style Form Add Podcast************************/
 .form {
@@ -208,26 +190,5 @@ body{
     }
     .slide .title .para{
         font-size: 9px;
-    }
-}
-@media (max-width: 1090px){
-    .nav-bar ul{
-        margin-left:20%;
-    }
-}
-@media (max-width: 961px){
-    .nav-bar ul, .logo img{
-        margin-left:1%;
-    }
-}
-@media (max-width: 783px){
-    .nav-bar ul li, .nav-bar ul li a {
-        width: 150px;
-        font-size: 12px;
-    }
-}
-@media (max-width: 961px){
-     .logo img{
-        margin-left:-44%;
     }
 }
