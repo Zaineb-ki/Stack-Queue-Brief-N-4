@@ -21,14 +21,15 @@ body{
 
 .nav-bar ul{
     justify-content: center;
-    margin-left:30%;
-    padding: 0px;
+    margin-left:36%;
+    padding: 17px;
     list-style: none;
 }
 .nav-bar .ul2{
     justify-content: center;
     list-style: none;
-    margin-left: 0%;
+    margin-left: -6%;
+    margin-top: -6%;
 }
 .nav-bar .ul2 li a{
   width: 270px;
@@ -44,6 +45,7 @@ body{
     background-color:#FFD0BE;
     line-height: 40px;
     text-align: center;
+    border-radius: 5px;
 
 }
 
@@ -72,6 +74,7 @@ body{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    margin-top: 4%;
 }
 .slide .title{
     width: 30%;
