@@ -7,42 +7,30 @@
         <title>MUSIC LIVE | HOME</title>
 
         <!-- Favicon -->
-        <link rel="shortcut icon" href="pics\logo.jpg" type="image/x-icon">
+        <link rel="shortcut icon" href="pics\logo.png" type="image/x-icon">
 
         <!-- css Link -->
         <link rel="stylesheet" href="style-home.css">
     </head>
     <body>
       <!-- Start menu -->
-        <div class="nav-bar">
-            <div>
-                <div class="logo"><a href="home.html"> <img src="pics\logo.jpg"> </a></div>
-            </div>
-            <ul>
-                <li class="active"><a href="home.html">HOME</a></li>
-                <li class="pdc"><a href="podcast1.html">YOUR PODCAST</a></li>
-                <!-- <li><a href="podcast2.html"></a></li>
-                <li><a href="podcast3.html"></a></li> -->
-               
+    <div class="nav-bar">
+            <div class="logo"><a href="home.html"> <img src="pics\logo.png"> </a></div>
+    
+         <ul>
+             <li><a href="home.html">HOME</a></li>
+             <li><a href="podcast1.html">YOUR PODCAST</a>
+            <ul class="ul2">
+                <li><a href="#">The Bill Simmans Podcast</a></li>
+                <li><a href="#">RadioLAB</a></li>
+                <li><a href="#">Real Time With Bill Mather</a></li>
             </ul>
-        </div>
-
- <!--        <div class="container">
-          <div class="container div1">
-             <h2>Listen,<br>Everywhere,Everytime</h2> 
-             <p>Who doesn’t  love a good podcast?
-                We got you covered with a collection 
-                of the best podcasts in the world.
-                Tune in and make your ride, travel, 
-                walk, or workout more enjoyable!</p>
-          </div>  
-          <div class="container div2">
-             <img src="pics\head.png"> 
-          </div>
-
-        </div> -->
-
-
+          </li>
+               
+         </ul>
+     </div>
+      <!-- --------------Start Header----------------- -->
+   
             <div class="slide">
                 <div class="title">
                     <h2 class="h">Listen,<br>Everywhere,Everytime</h2> 
@@ -57,39 +45,31 @@
                 </div>
             </div>
 
-            <!-- start section Podcast -->
+ <!-- -------------------start section Podcast ------------------------------->
             <section class="section">
               <div class="div1"><a href="#"><img class="img1" src="pics\podcast1.jpg"></a></div>  
               <div class="div1"><a href="#"><img class="img1" src="pics\podcast2.jpg"></a></div>
               <div class="div1"><a href="#"><img class="img1" src="pics\podcast3.png"></a></div>
-
             </section>
-    <div id="all"></div>
-    <div id="resPodcastTitle"></div>
-    <div id="resPodcaster"></div>
-    <div id="resCategorie"></div>
-    <div id="resLink"></div>
-    <div id="resTags"></div>
-    <div id="resDescription"></div>
-            <form >
+<!-- ------------------------------place Add Podcast---------------------------------------- -->
+
+<!---------------------start form Add Podcast ---------------------------- -->
+ <form >
   <div class="form">
-  <input type="text" name="Name" required="" placeholder="Url of picture" class="inpt1" id="adding">
+  <input type="text" name="Name" required="" placeholder="Url of picture" class="inpt1" id="url">
   <input type="text" name="Name" required="" placeholder="Podcast Title" class="inpt1" id="podcastTitle">
   <input type="text" name="Name" required="" placeholder="Podcaster" class="inpt1" id="podcaster">
   <input type="text" name="Name" required="" placeholder="Categorie" class="inpt1" id="categorie">
   <input type="link" name="Name" required="" placeholder="Link" class="inpt1" id="link">
   <input type="link" name="Name" required="" placeholder="Tags" class="inpt1" id="tags">
   <textarea placeholder="description" class="txtA" id="description"></textarea>
-
-  <input type="button" id="btn" onclick="AddPodcast()" value="add prodcast"">
-
-</div>
+  <button class="btn" onclick="AddPodcast();">Add Your Podcast</button>
+  </div>
 </form>
+<!--------------------- Start footer --------------------------->
  <footer class="footer">
-<span class="S1"> &copy; Copyright 2020. All Right Reserved</span>
-
+   <span class="S1"> &copy; Copyright 2020. All Right Reserved</span>
  </footer>
-    <script src="script.js"></script>
+
     </body>
 </html>
-
