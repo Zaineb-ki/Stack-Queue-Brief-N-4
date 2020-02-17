@@ -23,12 +23,14 @@ body{
     justify-content: center;
     margin-left:36%;
     padding: 10px;
+    padding: 17px;
     list-style: none;
 }
 .nav-bar .ul2{
     justify-content: center;
     list-style: none;
-    margin-left: 0%;
+    margin-left: -3%;
+    margin-top: -3%;
 }
 .nav-bar .ul2 li a{
   width: 270px;
