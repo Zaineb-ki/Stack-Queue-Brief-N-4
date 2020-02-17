@@ -1,5 +1,5 @@
 body{
-    color: #707070;
+    color: #FFFCFC;
     font-family: "American Typewriter";
 }
 
@@ -30,7 +30,7 @@ body{
     justify-content: center;
     list-style: none;
     margin-left: -3%;
-    margin-top: -3%;
+    margin-top: -7%;
 }
 .nav-bar .ul2 li a{
   width: 270px;
@@ -61,12 +61,61 @@ body{
 .nav-bar ul li ul li{
     display: none;
     margin-left: -4%;
-    margin-top: -4%;
+    margin-top: 0%;
 }
 .nav-bar ul li:hover ul li{
     display: block;
 }
+
 /*********************************Style Episode****************************************/
+.container{
+    margin-top: 6%;
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container .img-container img{
+    width: 492px;
+    height: 492px;
+}
+.container .text-container{
+    padding-left: 3%;
+    margin-top: 3%;
+    width: 65%;
+}
+.container .text-container h2{
+    font-size: 45px;
+    font-family: "Hiruko Alternate";
+    color: black;
+    margin-bottom: 1%;
+    margin-top: 3%;
+    
+}
+.container .text-container h6{
+    font-size: 27px;
+    font-family: "Script MT";
+    color: black;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    
+}
+
+.container  h5{
+    font-size: 27px;
+    font-family: "Hiruko Alternate";
+    color: #707070;
+    margin-bottom: 1%;
+    margin-top: 3%;
+}
+.container  p{
+    color: #707070;
+    font-size: 27px;
+    font-family: "Segoe UI";
+    margin: auto;
+    
+
+}
+
 .section2{
     display: flex;
     flex-wrap: wrap;
@@ -122,9 +171,10 @@ body{
 .section2 .Container h5{
 	font-size: 20px;
 	font-family:Hiruko Alternate;
-	margin-left: 9%;
-	margin-right: 77%;
+	margin-left: 10%;
+	margin-right: 78%;
 	margin-top: -1%;
+    color: gray;
 }
 .section2 .Container i{
 	margin-left: 41%;
@@ -177,37 +227,65 @@ body{
   color: black;
   border:2px solid black;
 }
+
+
 /*********************Start Style Footer********************/
- .footer{
-       background-color: #FFD0BE;
-       flex-basis: 100%;
-       height: 50px; 
-       display: flex;
-       flex-wrap: wrap;
-       margin-top: 6%;
-       
-   }
-   .footer span{
-       color:#707070; 
-       font-family: "Hiruko Alternate" ;
-       font-weight: normal;
 
-   }
-   .footer .S1{
-    float: left;
-    padding-left: 105px;
-    margin-top: 15px;
-    font-size: 26px;
-    font-family: "Hiruko Alternate";
-    font-weight: normal;
-    color: #707070;
-    margin-left: 33%;
-
+.footer{
+    background-color: #FFD0BE;
+    flex-basis: 100%;
+    height: 50px; 
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 6%;
     
 }
+.footer span{
+    color:#707070; 
+    font-family: "Hiruko Alternate" ;
+    font-weight: normal;
 
+}
+.footer .S1{
+ float: left;
+ padding-left: 105px;
+ margin-top: 10px;
+ font-size: 24px;
+ font-family: "Hiruko Alternate";
+ font-weight: normal;
+ color: #707070;
+ margin-left: 36%;
+
+ 
+}
 
 /**************************media of Header*********************************/
+@media (max-width: 1070px){
+ 
+    .slide .title .h{
+        font-size: 24px;
+    }
+    .slide .title .para{
+        font-size: 17px;
+    }
+}
+@media (max-width: 906px){
+    .slide .title .h{
+        font-size: 20px;
+    }
+    .slide .title .para{
+        font-size: 13px;
+    }
+}
+@media (max-width: 700px){
+    .slide .title .h{
+        font-size: 19px;
+    }
+    .slide .title .para{
+        font-size: 9px;
+    }
+}
+
 @media (max-width: 1090px){
     .nav-bar ul{
         margin-left:20%;
@@ -230,6 +308,7 @@ body{
     }
 }
 @media (max-width: 1600px){
+
      .footer .S1{
         font-size: 22px;
     }
@@ -245,4 +324,21 @@ body{
         font-size: 16px;
          margin-left: 0%;
     }
+
+    .footer .S1{
+       font-size: 22px;
+   }
+}
+@media (max-width: 900px){
+    .footer .S1{
+       font-size: 20px;
+       margin-left: 21%;
+   }
+}
+@media (max-width: 600px){
+    .footer .S1{
+       font-size: 16px;
+        margin-left: 0%;
+   }
+
 }

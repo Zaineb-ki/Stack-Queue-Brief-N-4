@@ -204,7 +204,7 @@ body{
     .slide .title .para{
         font-size: 17px;
     }
-
+}
 @media (max-width: 906px){
     .slide .title .h{
         font-size: 20px;
@@ -242,6 +242,18 @@ body{
         margin-left:-44%;
     }
 }
+
+
+@media(max-width: 960px){
+    .slide{
+        flex-direction: column-reverse;
+        height: 50vh;
+    }
+    .slide img{
+        width: 430px !important;
+        margin-left: -36% !important;
+    }
+}
 @media (max-width: 1600px){
      .footer .S1{
         font-size: 22px;
@@ -259,5 +271,3 @@ body{
          margin-left: 0%;
     }
 }
-
-
