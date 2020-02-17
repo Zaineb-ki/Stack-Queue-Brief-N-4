@@ -25,12 +25,21 @@ body{
     padding: 0px;
     list-style: none;
 }
+.nav-bar .ul2{
+    justify-content: center;
+    list-style: none;
+    margin-left: 0%;
+}
+.nav-bar .ul2 li a{
+  width: 270px;
+}
+
 
 .nav-bar ul li {
     font-family: "poppins";
     font-size: 20px;
     float: left;
-    width:230px;
+    width:270px;
     height :40px;
     background-color:#FFD0BE;
     line-height: 40px;
@@ -42,10 +51,10 @@ body{
     text-decoration: none;
     color: white;
     display: block;
-    width: 230px;
+    width: 270px;
 }
 .nav-bar ul li a:hover{
-    background-color: #FFD0BE;
+    background-color: black;
 }
 .nav-bar ul li ul li{
     display: none;
