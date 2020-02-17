@@ -1,1 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>MUSIC LIVE | HOME</title>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="pics\logo.png" type="image/x-icon">
+
+        <!-- css Link -->
+        <link rel="stylesheet" href="style-home.css">
+    </head>
+
+    <body>
+      <!-- Start menu -->
+    <div class="nav-bar">
+            <div class="logo"><a href="home.html"> <img src="pics\logo.png"> </a></div>
     
+         <ul>
+             <li><a href="home.html">HOME</a></li>
+             <li><a href="#">YOUR PODCAST</a>
+            <ul class="ul2">
+                <li><a href="podcast1.html">The Bill Simmans Podcast</a></li>
+                <li><a href="podcast2.html">RadioLAB</a></li>
+                <li><a href="podcast3.html">Real Time With Bill Mather</a></li>
+            </ul>
+          </li>
+               
+         </ul>
+     </div>
+      <!-- --------------Start Header----------------- -->
+   
+            <div class="slide">
+                <div class="title">
+                    <h2 class="h">Listen,<br>Everywhere,Everytime</h2> 
+                    <p class="para">Who doesn’t  love a good podcast?<br>
+                    We got you covered with a collection<br> 
+                    of the best podcasts in the world.<br>
+                    Tune in and make your ride, travel,<br>
+                    walk, or workout more enjoyable!</p>
+                </div>
+                <div class="img">
+                    <img src="pics\head.png"> 
+                </div>
+            </div>
+
+ <!-- -------------------start section Podcast ------------------------------->
+            <section class="section">
+              <div class="div1"><a href="podcast1.html"><img class="img1" src="pics\podcast1.jpg"></a></div>  
+              <div class="div1"><a href="podcast2.html"><img class="img1" src="pics\podcast2.jpg"></a></div>
+              <div class="div1"><a href="podcast3.html"><img class="img1" src="pics\podcast3.png"></a></div>
+            </section>
+<!-- ------------------------------place Add Podcast---------------------------------------- -->
+
+<!---------------------start form Add Podcast ---------------------------- -->
+ <form >
+  <div class="form">
+  <input type="text" name="Name" required="" placeholder="Url of picture" class="inpt1" id="url">
+  <input type="text" name="Name" required="" placeholder="Podcast Title" class="inpt1" id="podcastTitle">
+  <input type="text" name="Name" required="" placeholder="Podcaster" class="inpt1" id="podcaster">
+  <input type="text" name="Name" required="" placeholder="Categorie" class="inpt1" id="categorie">
+  <input type="link" name="Name" required="" placeholder="Link" class="inpt1" id="link">
+  <input type="link" name="Name" required="" placeholder="Tags" class="inpt1" id="tags">
+  <textarea placeholder="description" class="txtA" id="description"></textarea>
+  <button class="btn" onclick="AddPodcast();">Add Your Podcast</button>
+  </div>
+</form>
+<!--------------------- Start footer --------------------------->
+ <footer class="footer">
+   <span class="S1"> &copy; Copyright 2020. All Right Reserved</span>
+ </footer>
+
+    </body>
+</html>
