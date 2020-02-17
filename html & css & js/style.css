@@ -1,0 +1,248 @@
+body{
+    color: #707070;
+    font-family: "American Typewriter";
+}
+
+.logo{
+    margin-left: 70px;
+}
+
+/* nav-bar section */
+.nav-bar{
+    display: flex;
+    justify-content: first baseline;
+}
+
+.nav-bar img{
+    width: 100%;
+    margin-bottom:-25%;
+    margin-top: -25%;
+}
+
+.nav-bar ul{
+    justify-content: center;
+    margin-left:36%;
+    padding: 10px;
+    padding: 17px;
+    list-style: none;
+}
+.nav-bar .ul2{
+    justify-content: center;
+    list-style: none;
+    margin-left: -3%;
+    margin-top: -3%;
+}
+.nav-bar .ul2 li a{
+  width: 270px;
+}
+
+
+.nav-bar ul li {
+    font-family: "Hiruko Alternate";
+    font-size: 20px;
+    float: left;
+    width:270px;
+    height :40px;
+    background-color:#FFD0BE;
+    line-height: 40px;
+    text-align: center;
+
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 270px;
+}
+.nav-bar ul li a:hover{
+    background-color: black;
+}
+.nav-bar ul li ul li{
+    display: none;
+    margin-left: -4%;
+    margin-top: -4%;
+}
+.nav-bar ul li:hover ul li{
+    display: block;
+}
+/*********************************Style Episode****************************************/
+.section2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.Container {
+   margin-left: 0%;
+    width: 100%
+}
+.f{
+	width: 50%;
+    margin-left: 51%;
+    margin-top: -44%
+}
+
+.section2 .Container .d{
+	border : 2px solid #FFD0BE;
+	width: 13%;
+	margin-left: 7%;
+	background-color:#FFD0BE;
+	color: white;
+	border-radius: 30px;
+	font-family: "Hiruko Alternate";
+	font-size: 24px;
+    line-height: 218%;
+    padding-left: 1%;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.section2 .f .dd{
+	border : 2px solid #FFD0BE;
+	width: 24%;
+	margin-left: 7%;
+	background-color:#FFD0BE;
+	color: white;
+	border-radius: 30px;
+	font-family: "Hiruko Alternate";
+	font-size: 24px;
+    line-height: 218%;
+    padding-left: 5%;
+    margin-left: 34%;
+    margin-top: 5%;
+}
+.section2 .Container p{
+	font-size: 30px;
+	font-family: "Segoe UI";
+	 margin-left: 9%;
+	 width: 32%;
+	 color: black;
+	 border-top: 2px solid gray;
+}
+.section2 .Container h5{
+	font-size: 20px;
+	font-family:Hiruko Alternate;
+	margin-left: 9%;
+	margin-right: 77%;
+	margin-top: -1%;
+}
+.section2 .Container i{
+	margin-left: 41%;
+    color:#FFD0BE;
+    font-size: 48px; 
+    margin-top: -6%;
+    position: absolute;
+}
+/*********************Start Style Form Add Podcast************************/
+.form {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+
+}
+ .inpt1{
+     border: 0.5px solid black;
+     width: 400px;
+     height: 50px;
+     margin: 10px;
+     background-color: #FFFCFC;
+     border-radius: 5px;
+     padding-left: 10px;
+}
+ .txtA{
+     border: 0.5px solid black;
+     width: 1625px;
+     height: 150px;
+     margin: 29px;
+     background-color: #FFFCFC;
+     border-radius: 10px;
+     padding-left: 10px;
+}
+.btn{
+
+    font-family: Segoe UI;
+    height: 54px;
+    width: 220px;
+    border-radius: 10px;
+    background-color: #FFD0BE;
+    color: white;
+    border: 2px;
+    font-size: 20px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.btn:hover{
+  background-color: white;
+  color: black;
+  border:2px solid black;
+}
+/*********************Start Style Footer********************/
+ .footer{
+       background-color: #FFD0BE;
+       flex-basis: 100%;
+       height: 50px; 
+       display: flex;
+       flex-wrap: wrap;
+       margin-top: 6%;
+       
+   }
+   .footer span{
+       color:#707070; 
+       font-family: "Hiruko Alternate" ;
+       font-weight: normal;
+
+   }
+   .footer .S1{
+    float: left;
+    padding-left: 105px;
+    margin-top: 15px;
+    font-size: 26px;
+    font-family: "Hiruko Alternate";
+    font-weight: normal;
+    color: #707070;
+    margin-left: 33%;
+
+    
+}
+
+
+/**************************media of Header*********************************/
+@media (max-width: 1090px){
+    .nav-bar ul{
+        margin-left:20%;
+    }
+}
+@media (max-width: 961px){
+    .nav-bar ul, .logo img{
+        margin-left:1%;
+    }
+}
+@media (max-width: 783px){
+    .nav-bar ul li, .nav-bar ul li a {
+        width: 150px;
+        font-size: 12px;
+    }
+}
+@media (max-width: 961px){
+     .logo img{
+        margin-left:-44%;
+    }
+}
+@media (max-width: 1600px){
+     .footer .S1{
+        font-size: 22px;
+    }
+}
+@media (max-width: 900px){
+     .footer .S1{
+        font-size: 20px;
+        margin-left: 21%;
+    }
+}
+@media (max-width: 600px){
+     .footer .S1{
+        font-size: 16px;
+         margin-left: 0%;
+    }
+}
