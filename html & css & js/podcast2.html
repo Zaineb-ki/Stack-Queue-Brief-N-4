@@ -7,11 +7,15 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>PODCAST SHOW | RadioLAB</title>
 
+        <!-- font awesome -->
+        <script src="https://kit.fontawesome.com/c2035ffa68.js" crossorigin="anonymous"></script>
+
         <!-- Favicon -->
             <link rel="shortcut icon" href="pics\logo.png" type="image/x-icon">
 
         <!-- css Link -->
-            <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style.css">
+
     </head>
 
     <body>
@@ -23,17 +27,121 @@
                 <li><a href="home.html">HOME</a></li>
                 <li><a href="#">YOUR PODCAST</a>
                     <ul class="ul2">
-                        <li><a href="podcast1.html">The Bill Simmans Podcast</a></li>
+                        <li><a href="podcast1.html">The Bill Simmons Podcast</a></li>
                         <li><a href="podcast2.html">RadioLAB</a></li>
                         <li><a href="podcast3.html">Real Time With Bill Mather</a></li>
                     </ul>
                 </li>
                 
             </ul>
+
+          </li>
+               
+         </ul>
+     </div>
+      <!-- --------------Start header----------------- -->
+         <div class="container">
+            <div class="img-container">
+                <img src="pics\podcast2.jpg" alt="" >
+            </div>
+            <div class="text-container">
+                <h2>RadioLAB </h2>
+
+                <h6>Science</h6>
+                
+                <h5> About the Show</h5>
+                <p>Inspiring curiosity. Each episode of the Radiolab podcast is a patchwork of people, <br>
+                    sounds, stories, society and experiences. Hosted by Jad Abumrad and Robert Krulwich, <br>
+                    Radiolab is produced & made available on demand by WNYC public radio. </p>
+                
+            </div>
+                
+
+        
         </div>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="section2">
+          <!-- -------------------------- -->
+          <div class="Container">
+          <div class="d">
+            Episode of the Show :
+          </div>
+          <div style="margin-left: 2%;">
+            <p align="center">The Other Latif: Episode 1</p>
+             <h5>43 minutes · Feb 4</h5>
+              <a href=""><i class="fas fa-play-circle"></i></a>           <!-- ------------------------- -->
+  
+            <p align="center">The Bobbys</p>
+             <h5>72 minutes · 4 days ago</h5>
+             <a href=""><i class="fas fa-play-circle"></i></a>           <!-- ------------------------- -->
+          
+            <p align="center">Body Count</p>
+             <h5>48 minutes · Jan 24</h5>
+             <a href=""><i class="fas fa-play-circle"></i></a>           <!-- -------------------------- -->
+            
+            <p align="center">60 Words</p>
+             <h5>60 minutes · Jan 7</h5>
+             <a href=""><i class="fas fa-play-circle"></i></a>
+          </div>
+          
+           <!-- Play list -->
+           <input type="submit" name="prev" value="Back" class="btn_Nav" style="right: -10px; position: relative; bottom: 22px;">
+           <audio controls="">
+             <source src="" type="">
+           </audio>
+           <input type="submit" name="next" value="Next" class="btn_Nav" style="right: 157px; position: relative; bottom: 20px;">
+          </div>
+
+          <div class="f" style="margin-top: -44% !important;">
+             <div class="dd"> Add an Episode :</div>
+            <form >
+              <div class="form">
+                  <input type="text" name="Name" required="" placeholder="Episode Title" class="inpt1" id="title">
+                  <input type="text" name="Name" required="" placeholder="Time" class="inpt1" id="time">
+                  <input type="text" name="Name" required="" placeholder="Duration" class="inpt1" id="duree">
+                  <textarea placeholder="description" class="txtA" id="description"></textarea>
+                  <button class="btn" onclick="AddPodcast();">Add Your Episode</button>
+              </div>
+            </form>
+        </div>
+      </div>
+
+
       <!--------------------- Start footer --------------------------->
-        <footer class="footer">
+  <footer class="footer">
             <span class="S1"> &copy; Copyright 2020. All Right Reserved</span>
-        </footer>
-    </body>
-</html>
+  </footer>
+</body>
+
+</html> 
+
+
+
+
+   
