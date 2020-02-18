@@ -127,7 +127,7 @@ body{
     width: 100%
 }
 .f{
-	width: 50%;
+	width: 35%;
     margin-left: 51%;
     margin-top: -44%
 }
@@ -148,7 +148,7 @@ body{
 }
 .section2 .f .dd{
 	border : 2px solid #FFD0BE;
-	width: 24%;
+	width: 31%;
 	margin-left: 7%;
 	background-color:#FFD0BE;
 	color: white;
@@ -156,7 +156,7 @@ body{
 	font-family: "Hiruko Alternate";
 	font-size: 24px;
     line-height: 218%;
-    padding-left: 5%;
+    padding-left: 7%;
     margin-left: 34%;
     margin-top: 5%;
 }
