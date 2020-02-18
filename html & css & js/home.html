@@ -50,7 +50,7 @@
             </div>
 
  <!-- -------------------start section Podcast ------------------------------->
-            <section class="section">
+            <section class="section" id="container">
               <div class="div1"><a href="podcast1.html"><img class="img1" src="pics\podcast1.jpg"></a></div>  
               <div class="div1"><a href="podcast2.html"><img class="img1" src="pics\podcast2.jpg"></a></div>
               <div class="div1"><a href="podcast3.html"><img class="img1" src="pics\podcast3.png"></a></div>
@@ -58,7 +58,7 @@
 <!-- ------------------------------place Add Podcast---------------------------------------- -->
 
 <!---------------------start form Add Podcast ---------------------------- -->
- <form >
+
   <div class="form">
   <input type="text" name="Name" required="" placeholder="Url of picture" class="inpt1" id="url">
   <input type="text" name="Name" required="" placeholder="Podcast Title" class="inpt1" id="podcastTitle">
@@ -67,13 +67,61 @@
   <input type="link" name="Name" required="" placeholder="Link" class="inpt1" id="link">
   <input type="link" name="Name" required="" placeholder="Tags" class="inpt1" id="tags">
   <textarea placeholder="description" class="txtA" id="description"></textarea>
-  <button class="btn" onclick="AddPodcast();">Add Your Podcast</button>
+  <button class="btn" onclick="submit();">Add Your Podcast</button>
   </div>
-</form>
+
 <!--------------------- Start footer --------------------------->
  <footer class="footer">
    <span class="S1"> &copy; Copyright 2020. All Right Reserved</span>
  </footer>
+
+
+
+
+
+
+
+
+
+
+
+<script>
+	
+	function submit() {
+
+
+  var par = document.getElementById("container");
+
+  var im = document.getElementById("url");
+  var pdr = document.getElementById("podcastTitle");
+  var pd = document.getElementById("podcaster");
+  var ds = document.getElementById("categorie");
+  var cat = document.getElementById("link");
+
+
+       par.innerHTML += "<div class='div1'>" +"<div>" +"<img width='100%' src =" + im.value  + ">" + "</div>" + "<h1 align='center'>"+ pdr.value +
+
+        "<h3 align='center'>" + pd.value + "</h3>" +  "<div>" +   "<p>" + ds.value + "</p>" + "</div>" + "<h4 align='center'>" + cat.value + "</h4>"
+
+
+
+        + "</div>";
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+</script>
 
     </body>
 </html>
