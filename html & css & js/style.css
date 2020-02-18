@@ -132,12 +132,12 @@ body{
 }
 .Container {
    margin-left: 0%;
-    width: 100%
+    width: 100%;
 }
 .f{
-	width: 35%;
-    margin-left: 51%;
-    margin-top: -44%
+    width: 41%;
+    margin-left: 49%;
+    margin-top: -53%;
 }
 
 .section2 .Container .d{
@@ -165,32 +165,35 @@ body{
 	font-size: 24px;
     line-height: 218%;
     padding-left: 7%;
-    margin-left: 34%;
-    margin-top: 5%;
+    margin-left: 30%;
+    margin-top: 20%;
 }
 .section2 .Container p{
 	font-size: 30px;
 	font-family: "Segoe UI";
 	 margin-left: 9%;
-	 width: 32%;
+	 width: 35%;
 	 color: black;
-	 border-top: 2px solid gray;
+     border-top: 2px solid gray;
+     text-align: start;
 }
 .section2 .Container h5{
 	font-size: 20px;
 	font-family:Hiruko Alternate;
 	margin-left: 10%;
-	margin-right: 78%;
+	margin-right: 77%;
 	margin-top: -1%;
     color: gray;
+    text-align: start;
 }
 .section2 .Container i{
-	margin-left: 41%;
+	margin-left: 42%;
     color:#FFD0BE;
     font-size: 48px; 
     margin-top: -6%;
     position: absolute;
 }
+
 /*********************Start Style Form Add Podcast************************/
 .form {
     margin-top: 80px;
@@ -241,7 +244,7 @@ body{
 }
  .inpt1{
      border: 0.5px solid black;
-     width: 400px;
+     width: 453px;
      height: 50px;
      margin: 10px;
      background-color: #FFFCFC;
@@ -250,8 +253,8 @@ body{
 }
  .txtA{
      border: 0.5px solid black;
-     width: 1625px;
-     height: 150px;
+     width: 453px;
+    height: 285px;
      margin: 29px;
      background-color: #FFFCFC;
      border-radius: 10px;
@@ -285,10 +288,10 @@ body{
     color: white;
     border: 2px;
     font-size: 20px;
-    margin-left: 5%;
+    margin-left: 9%;
 }
 audio{
-    margin-left: 5%;
+    margin-left: 1%;
     width: 28%;
     margin-top: 2%;
 }

@@ -5,13 +5,17 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>PODCAST SHOW | Real Time With Bill Mather</title>
+        <title>PODCAST SHOW | Real Time with Bill Mather</title>
+
+        <!-- font awesome -->
+        <script src="https://kit.fontawesome.com/c2035ffa68.js" crossorigin="anonymous"></script>
 
         <!-- Favicon -->
-        <link rel="shortcut icon" href="pics\logo.png" type="image/x-icon">
+            <link rel="shortcut icon" href="pics\logo.png" type="image/x-icon">
 
         <!-- css Link -->
         <link rel="stylesheet" href="style.css">
+
     </head>
 
     <body>
@@ -23,17 +27,100 @@
                 <li><a href="home.html">HOME</a></li>
                 <li><a href="#">YOUR PODCAST</a>
                     <ul class="ul2">
-                        <li><a href="podcast1.html">The Bill Simmans Podcast</a></li>
+                        <li><a href="podcast1.html">The Bill Simmons Podcast</a></li>
                         <li><a href="podcast2.html">RadioLAB</a></li>
                         <li><a href="podcast3.html">Real Time With Bill Mather</a></li>
                     </ul>
                 </li>
                 
             </ul>
+
+          </li>
+               
+         </ul>
+     </div>
+      <!-- --------------Start header----------------- -->
+         <div class="container">
+            <div class="img-container">
+                <img src="pics/podcast3.png" alt="" >
+            </div>
+            <div class="text-container">
+                <h2>The Real Time with BILL MAHER </h2>
+
+                <h6>Comedy</h6>
+                
+                <h5> About the Show</h5>
+                <p>HBO's popular television show Real Time with Bill Maher for listening in on demand <br>
+                    podcast format. The always outspoken Maher is known for his political satire and <br>
+                    sociopolitical commentary, which targets a wide swath of topics including religion, <br>
+                    politics, the mass media, and more. </p>
+                
+            </div>
+                
+
+        
         </div>
+
+      
+
+        <div class="section2">
+          <!-- -------------------------- -->
+          <div class="Container">
+          <div class="d">
+            Episode of the Show :
+          </div>
+          <div >
+            <p align="center">Ep. #519: Steve Bannon, Fareed Zakaria</p>
+             <h5>56 minutes · 7 days ago</h5>
+              <a href=""><i class="fas fa-play-circle"></i></a>           <!-- ------------------------- -->
+  
+            <p align="center">Overtime – Episode #518: Michael Eric <br>
+                Dyson, Mitch Landrieu, Mikie Sherrill, Rick...</p>
+             <h5>8 minutes · Jan 31</h5>
+             <a href=""><i class="fas fa-play-circle"></i></a>           <!-- ------------------------- -->
+          
+            <p align="center">Ep. #518: Pete Buttigieg, Michael Eric Dyson</p>
+             <h5>55 minutes · Jan 31</h5>
+             <a href=""><i class="fas fa-play-circle"></i></a>           <!-- -------------------------- -->
+            
+            <p align="center">Overtime - Episode #517: Ingrid Newkirk, <br>
+                Michael McFaul, Alex Wagner, Erick Erickson</p>
+             <h5>9 minutes · Jan 24</h5>
+             <a href=""><i class="fas fa-play-circle"></i></a>
+          </div>
+          
+           <!-- Play list -->
+           <input type="submit" name="prev" value="Back" class="btn_Nav" style="right: -10px; position: relative; bottom: 22px;">
+           <audio controls="">
+             <source src="" type="">
+           </audio>
+           <input type="submit" name="next" value="Next" class="btn_Nav" style="right: 157px; position: relative; bottom: 20px;">
+          </div>
+
+          <div class="f" style="margin-top: -48% !important;">
+             <div class="dd"> Add an Episode :</div>
+            <form >
+              <div class="form">
+                  <input type="text" name="Name" required="" placeholder="Episode Title" class="inpt1" id="title">
+                  <input type="text" name="Name" required="" placeholder="Time" class="inpt1" id="time">
+                  <input type="text" name="Name" required="" placeholder="Duration" class="inpt1" id="duree">
+                  <textarea placeholder="description" class="txtA" id="description"></textarea>
+                  <button class="btn" onclick="AddPodcast();">Add Your Episode</button>
+              </div>
+            </form>
+        </div>
+      </div>
+
+
       <!--------------------- Start footer --------------------------->
-        <footer class="footer">
+  <footer class="footer">
             <span class="S1"> &copy; Copyright 2020. All Right Reserved</span>
-        </footer>
-    </body>
-</html>
+  </footer>
+</body>
+
+</html> 
+
+
+
+
+   
