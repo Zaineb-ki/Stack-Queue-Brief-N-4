@@ -137,7 +137,7 @@ body{
 .f{
     width: 41%;
     margin-left: 49%;
-    margin-top: -53%;
+    margin-top: -50%;
 }
 
 .section2 .Container .d{
@@ -202,49 +202,10 @@ body{
     justify-content: center;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
  .inpt1{
      border: 0.5px solid black;
-     width: 453px;
+     width: 483px;
      height: 50px;
      margin: 10px;
      background-color: #FFFCFC;
@@ -253,7 +214,7 @@ body{
 }
  .txtA{
      border: 0.5px solid black;
-     width: 453px;
+     width: 483px;
     height: 285px;
      margin: 29px;
      background-color: #FFFCFC;
@@ -295,7 +256,48 @@ audio{
     width: 28%;
     margin-top: 2%;
 }
+/***************************style description*********************************/
+.display{
+    display: none;
+    background-color:#FFD0BE; 
+    width: 37%;
+    margin-left:8%;
+    margin-top: -1%;
+}
+ .Container:hover .display {
+  display: all;
+}
 
+.desc{
+    border: 2px solid #FFD0BE;
+    width: 7%;
+    margin-left: 7%;
+    background-color: #FFD0BE;
+    color: white;
+    border-radius: 30px;
+    font-family: "Hiruko Alternate";
+    font-size: 20px;
+    line-height: 177%;
+    padding-left: 2%;
+    margin-left: 30%;
+    margin-top: -3%
+}
+.display h4{
+    font-size: 27px;
+    font-family: "Hiruko Alternate";
+    color: black;
+    margin-left: 4%;
+}
+.display h6{
+    color: #707070;
+    font-size: 26px;
+    font-family: "Hiruko Alternate";
+    text-align: center;
+    margin-top: -3%;
+}
+/*p :hover .display{
+    display: block;
+}*/
 /*********************Start Style Footer********************/
 
 .footer{
