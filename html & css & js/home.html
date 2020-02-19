@@ -38,7 +38,7 @@
             <div class="slide">
                 <div class="title">
                     <h2 class="h">Listen,<br>Everywhere,Everytime</h2> 
-                    <p class="para">Who doesn’t love a good podcast?<br>
+                    <p class="para">Who doesn’t  love a good podcast?<br>
                     We got you covered with a collection<br> 
                     of the best podcasts in the world.<br>
                     Tune in and make your ride, travel,<br>
@@ -50,30 +50,64 @@
             </div>
 
  <!-- -------------------start section Podcast ------------------------------->
-            <section class="section">
-              <div class="div1"><a href="podcast1.html"><img class="img1" src="pics\podcast1.jpg"></a></div>  
-              <div class="div1"><a href="podcast2.html"><img class="img1" src="pics\podcast2.jpg"></a></div>
-              <div class="div1"><a href="podcast3.html"><img class="img1" src="pics\podcast3.png"></a></div>
+            <section class="section" id="container">
+              <div class="div1">
+                <a href="podcast1.html"><img class="img1" src="pics\podcast1.jpg"></a>
+                <ul style="list-style: none; text-align: center; line-height: 28px;">
+                  <li style="font-family: Hiruko Alternate ; font-size: 28px; color: black;"> The Bill Simmons Podcast</li>
+                  <li style="font-size: 15px; font-family: Hiruko Alternate;">Sport</li>
+                  <li style="font-family: Hiruko Alternate; font-size: 20px;">About the Show</li>
+                  <li style="font-family: Segoe UI; line-height: 22px !important;">HBO's popular television show Real Time with Bill Maher for listening in on 
+                    demand podcast format. The always outspoken Maher is known for his political satire and sociopolitical commentary, 
+                    which targets a wide swath of topics including religion, politics, the mass media, and more.</li>
+                </ul>
+
+              </div>  
+              <div class="div1">
+                <a href="podcast2.html"><img class="img1" src="pics\podcast2.jpg"></a>
+                <ul style="list-style: none; text-align: center; line-height: 28px;">
+                  <li style="font-family: Hiruko Alternate ; font-size: 28px; color: black;"> RadioLAB</li>
+                  <li style="font-size: 15px; font-family: Hiruko Alternate;">Science</li>
+                  <li style="font-family: Hiruko Alternate; font-size: 20px;">About the Show</li>
+                  <li style="font-family: Segoe UI; line-height: 22px !important;"> Inspiring curiosity. Each episode of the Radiolab podcast is a patchwork of people, 
+                    sounds, stories, society and experiences. Hosted by Jad Abumrad and Robert Krulwich, Radiolab is produced & made available 
+                    on demand by WNYC public radio.</li>
+                </ul>
+              </div>
+              <div class="div1">
+                <a href="podcast3.html"><img class="img1" src="pics\podcast3.png"></a>
+                <ul style="list-style: none; text-align: center; line-height: 28px;">
+                  <li style="font-family: Hiruko Alternate ; font-size: 23px; color: black;"> The Real Time with BILL MAHER</li>
+                  <li style="font-size: 15px; font-family: Hiruko Alternate;"> Comedy</li>
+                  <li style="font-family: Hiruko Alternate; font-size: 20px;">About the Show</li>
+                  <li style="font-family: Segoe UI; line-height: 22px !important;">HBO's popular television show Real Time with Bill Maher for listening in on demand
+                    podcast format. The always outspoken Maher is known for his political satire and
+                    sociopolitical commentary, which targets a wide swath of topics including religion,
+                    politics, the mass media, and more. </li>
+                </ul>
+              </div>
             </section>
 <!-- ------------------------------place Add Podcast---------------------------------------- -->
 
 <!---------------------start form Add Podcast ---------------------------- -->
- <form >
+
   <div class="form">
   <input type="text" name="Name" required="" placeholder="Url of picture" class="inpt1" id="url">
   <input type="text" name="Name" required="" placeholder="Podcast Title" class="inpt1" id="podcastTitle">
   <input type="text" name="Name" required="" placeholder="Podcaster" class="inpt1" id="podcaster">
   <input type="text" name="Name" required="" placeholder="Categorie" class="inpt1" id="categorie">
-  <input type="link" name="Name" required="" placeholder="Link" class="inpt1" id="link">
-  <input type="link" name="Name" required="" placeholder="Tags" class="inpt1" id="tags">
+  <input type="text" name="Name" required="" placeholder="Link" class="inpt1" id="link">
+  <input type="text" name="Name" required="" placeholder="Tags" class="inpt1" id="tags">
   <textarea placeholder="description" class="txtA" id="description"></textarea>
   <button class="btn" onclick="AddPodcast();">Add Your Podcast</button>
   </div>
-</form>
+
 <!--------------------- Start footer --------------------------->
  <footer class="footer">
    <span class="S1"> &copy; Copyright 2020. All Right Reserved</span>
  </footer>
+
+<script type="text/javascript" src="script.js"></script>
 
     </body>
 </html>
