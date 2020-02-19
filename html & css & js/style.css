@@ -260,27 +260,13 @@ audio{
 .display{
     display: none;
     background-color:#FFD0BE; 
-    width: 37%;
-    margin-left:8%;
-    margin-top: -1%;
-}
- .Container:hover .display {
-  display: all;
+    width: 35%;
+    margin-left:156px;
+    margin-top: 0%;
 }
 
-.desc{
-    border: 2px solid #FFD0BE;
-    width: 7%;
-    margin-left: 7%;
-    background-color: #FFD0BE;
-    color: white;
-    border-radius: 30px;
-    font-family: "Hiruko Alternate";
-    font-size: 20px;
-    line-height: 177%;
-    padding-left: 2%;
-    margin-left: 30%;
-    margin-top: -3%
+#desc :hover + .display{
+    display: block;
 }
 .display h4{
     font-size: 27px;
@@ -295,9 +281,7 @@ audio{
     text-align: center;
     margin-top: -3%;
 }
-/*p :hover .display{
-    display: block;
-}*/
+
 /*********************Start Style Footer********************/
 
 .footer{
