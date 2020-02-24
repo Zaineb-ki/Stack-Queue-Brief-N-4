@@ -1,6 +1,8 @@
 body{
     color: #FFFCFC;
     font-family: "American Typewriter";
+    padding: 0px;
+    margin: 0px;
     
 }
 
@@ -170,6 +172,7 @@ body{
     margin-top: 20%;
 }
 .section2 .Container p{
+    
 	font-size: 30px;
 	font-family: "Segoe UI";
     margin-left: 13%;
@@ -194,6 +197,15 @@ body{
     font-size: 48px; 
     margin-top: -7%;
     position: absolute;
+    
+}
+.section2 .Container a{
+	margin-left: 42%;
+    color:#FFD0BE;
+    font-size: 48px; 
+    margin-top: -7%;
+    position: absolute;
+    
 }
 
 /*********************Start Style Form Add Podcast************************/
