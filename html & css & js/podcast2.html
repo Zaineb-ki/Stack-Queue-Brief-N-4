@@ -90,14 +90,14 @@
                         <h5>72 minutes · 4 days ago</h5>
 
                         <input type="button" id="button2" value="play" class="myButton">
-                   <div class="display">
+              <div class="display">
                         <h4>Episode Info</h4>
                         <h6 class="h6">On the occasion of his retirement as cohost of Radiolab, Robert sat down with Jad to reflect
                            on his long and storied career in radio and television, and their work together over the past decade and a 
                            half. And we pay tribute to Robert, inspired by a peculiar tradition of his.
 
                           This episode was produced by Matt Kielty. Sound design & mix by Jeremy Bloom..</h6> 
-                    </div>
+               </div>
             </span>
                     <!-- ------------------------- -->
             <span id="desc">
@@ -133,43 +133,45 @@
 
           </div>
           
-           <!-- Play list -->
-           <input type="submit" name="prev" value="Back" class="btn_Nav" style="right: -21px; position: relative; bottom: 22px;">
-           <audio controls="">
-             <source src="" type="">
-           </audio>
-           <input type="submit" name="next" value="Next" class="btn_Nav" style="right: 60px; position: relative; bottom: 20px;">
-          </div>
+              <!-- Play list -->
+              <input type="button" name="prev" value="Back" class="btn_Nav"  onclick="prev()" style="right: -39px; position: relative; bottom: 22px;">
 
-
-
-          <!-- Add an Episode  -->
-          <div class="f">
-             <div class="dd"> Add an Episode :</div>
-            
-              <div class="form">
-                  <input type="text" name="Name" required="" placeholder="Episode Title" class="inpt1" id="title">
-                  <input type="text" name="Name" required="" placeholder="Time" class="inpt1" id="time">
-                  <input type="text" name="Name" required="" placeholder="Duration" class="inpt1" id="duree">
-                  <textarea placeholder="description" class="txtA" id="description"></textarea>
-                  <input type="button" class="btn" onclick="AddEpisode()" value="Add Your Episode">
-              </div>
-           
-        </div>
-      </div>
-
-      <div class="input">
-        <input id="data" type="text" class="input1" placeholder="URL mp3"style="left: 1159px; top: -720px;">
-        <button onclick="add()" class="addB" style="left: 33%;top: -104px;">Add Music</button>
-        <button onclick="pop()" class="removeB" style="top: -13px; right: 113px;">Pop Music</button>
-    </div>
-
-      <!--------------------- Start footer --------------------------->
-  <footer class="footer">
-            <span class="S1"> &copy; Copyright 2020. All Right Reserved</span>
-  </footer>
-
-  <script src="script-podcast.js"></script>
-</body>
-
-</html> 
+              <audio controls="" id="audio">
+               <source ></audio>
+   
+              <input type="button" name="next" value="Next" class="btn_Nav" onclick="next()" style="right: 70px; position: relative; bottom: 20px;">
+             </div>
+   
+             <div class="f">
+                <div class="dd"> Add an Episode :</div>
+               
+                 <div class="form">
+                   
+                     <input type="text" name="Name" required="" placeholder="Episode Title" class="inpt1" id="title">
+                     <input type="text" name="Name" required="" placeholder="Time" class="inpt1" id="time">
+                     <input type="text" name="Name" required="" placeholder="Duration" class="inpt1" id="duree">
+                     <textarea placeholder="description" class="txtA" id="description"></textarea>
+                     <input type="button" class="btn" onclick="AddEpisode()" value="Add Your Episode">
+                 </div>
+              
+           </div>
+         </div>
+   
+         <div class="input">
+           <input id="data" type="text" class="input1" placeholder="URL mp3">
+           <button onclick="add()" class="addB">Add Music</button>
+           <button onclick="pop()" class="removeB">Pop Music</button>
+       </div>
+   
+         <!--------------------- Start footer --------------------------->
+     <footer class="footer">
+               <span class="S1"> &copy; Copyright 2020. All Right Reserved</span>
+     </footer>
+   
+     <script src="script-podcast2.js"></script>
+   </body>
+   
+   </html> 
+   
+   
+   

@@ -141,7 +141,7 @@ body{
     width: 40%;
     /* margin-left: 49%;
     margin-top: -50%; */
-} 
+}
 
 .section2 .Container .d{
 	border : 2px solid #FFD0BE;
@@ -235,8 +235,8 @@ body{
     padding-left: 10px;
     float: left;
     position: relative;
-    left: 64%;
-    top: -46pc;
+    left: 63.5%;
+    top: -45pc;
 }
 
 .input .addB{
@@ -251,8 +251,8 @@ body{
     margin-top: 2%;
     margin-bottom: 2%;
     position: relative;
-    left: 32%;
-    top: -106px;
+    left: 33%;
+    top: -103px;
 }
 
 .input .removeB{
@@ -268,8 +268,8 @@ body{
     margin-bottom: 2%;
     position: relative;
     float: right;
-    top: -12px;
-    right: 80px;
+    top: -14px;
+    right: 118px;
 }
 
  .txtA{
@@ -313,8 +313,8 @@ body{
 }
 audio{
     margin-left: 5%;
-    width: 51%;
-    margin-top: 2%;
+    width: 59%;
+    margin-top: 4%;
 }
 /***************************style description*********************************/
 .display{
@@ -370,15 +370,12 @@ audio{
 
 .section2 .myButton{
     float: right;
-    margin-top: -111px;
+    margin-top: -104px;
     border-radius: 50%;
     height: 70px;
-    width: 114px;
+    width: 160px;
     background-color: #FFD0BE;
     color: white;
-    font-size: 20px;
-    font-family: "Hiruko Alternate";
-    margin-right: 5%;
 }
 
 /**************************media of Header*********************************/
