@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 class LinkedList {
     constructor() {
         this.head = null;
@@ -150,3 +151,26 @@ boutton3.onclick = function(){
     para3.style.color = "red";
 }
 
+=======
+ function AddEpisode() {
+
+
+  var all = document.getElementById("Container");
+
+  var title = document.getElementById("title");
+  var time = document.getElementById("time");
+  var duree = document.getElementById("duree");
+  var description = document.getElementById("description");
+  
+
+
+       all.innerHTML += "<div class='span'>" + "</div>" + "<h1 align='center'>"+ title.value +
+
+        "<h5 align='center'>" + time.value + "</h5>" + "<div>" + 
+
+         "<h5 align='center'>" + duree.value + "</h5>" + "</div>" +
+
+         "<h4 align='center'>" + description .value + "</h4>" + "</div>";
+
+}
+>>>>>>> 5fed31c6cbf3e81fc7074aa7c990d1fd77b31a2c
