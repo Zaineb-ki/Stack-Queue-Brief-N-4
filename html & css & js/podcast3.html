@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,6 +15,8 @@
 
         <!-- css Link -->
         <link rel="stylesheet" href="style.css">
+        <!-- Java script link -->
+        <link rel="stylesheet" href="script-podcast.js">
 
     </head>
 
@@ -42,7 +44,7 @@
       <!-- --------------Start header----------------- -->
          <div class="container">
             <div class="img-container">
-                <img src="pics/podcast3.png" alt="" >
+                <img src="pics\podcast3.png" alt="" style="width: 350px;">
             </div>
             <div class="text-container">
                 <h2>The Real Time with BILL MAHER </h2>
@@ -51,9 +53,9 @@
                 
                 <h5> About the Show</h5>
                 <p>HBO's popular television show Real Time with Bill Maher for listening in on demand <br>
-                    podcast format. The always outspoken Maher is known for his political satire and <br>
-                    sociopolitical commentary, which targets a wide swath of topics including religion, <br>
-                    politics, the mass media, and more. </p>
+                  podcast format. The always outspoken Maher is known for his political satire and <br>
+                  sociopolitical commentary, which targets a wide swath of topics including religion, <br>
+                  politics, the mass media, and more. </p>
                 
             </div>
                 
@@ -61,95 +63,102 @@
         
         </div>
 
-      
-
         <div class="section2">
           <!-- -------------------------- -->
           <div class="Container">
           <div class="d">
             Episode of the Show :
           </div>
-
-          <div >
+          <div id="content">
             <span id="desc">
-              <p align="center">Ep. #519: Steve Bannon, Fareed Zakaria</p>
-             <h5>56 minutes · 7 days ago</h5>
-              <a href="" style="margin-left: 40% !important; margin-top: -5% !important;"><i class="fas fa-play-circle"></i></a> 
-              <div class="display">
-                <h4>Episode Info</h4>
-                <h6 class="h6">Bill’s guests are Steve Bannon, Fareed Zakaria, Ezra Klein, Andrew Gillum, and Sarah Isgur (Originally aired 2/7/20)</h6> 
-              </div>
-            </span>
-                      <!-- ------------------------- -->
-
-            <span id="desc">
-                  <p align="center">Ep. #518: Pete Buttigieg, Michael Eric Dyson <br>
-                     </p>
-                  <h5>55 minutes · Jan 31</h5>
-                  <a href="" style="margin-left: 40% !important; margin-top: -5% !important;"><i class="fas fa-play-circle"></i></a> 
+                      <p align="center" id="para1">Ep. #519: Steve Bannon, Fareed Zakaria</p>
+                      <h5>56 minutes · 7 days ago</h5>
+  
+                      <input type="button" id="button1" value="play" class="myButton"> 
+                <!-- ------------------------- -->
                   <div class="display">
                       <h4>Episode Info</h4>
-                      <h6 class="h6">Bill’s guests are Megyn Kelly, Ingrid Newkirk, Erick Erickson, Alex Wagner, and Michael McFaul. (Originally aired 1/24/20)</h6> 
+                      <h6 class="h6">Bill’s guests are Steve Bannon, Fareed Zakaria, 
+                        Ezra Klein, Andrew Gillum, and Sarah Isgur (Originally aired 2/7/20).</h6> 
                   </div>
-            </span>
-                      <!-- ------------------------- -->
-
-            <span id="desc">
-                  <p align="center">Ep. #517: Megyn Kelly, Ingrid Newkirk</p>
-                  <h5>53 minutes · Jan 24</h5>
-                  <a href="" style="margin-left: 40% !important; margin-top: -5% !important;"><i class="fas fa-play-circle"></i></a>
-                  <div class="display">
-                      <h4>Episode Info</h4>
-                      <h6 class="h6"> Bill’s guests are Megyn Kelly, Ingrid Newkirk, Erick Erickson, Alex Wagner, and Michael McFaul. (Originally aired 1/24/20)</h6> 
-                  </div>
-            </span>
-                      <!-- -------------------------- -->
-
-            <span id="desc">
-                  <p align="center">Ep. #516: Nancy Pelosi, Andrew Yang</p>
-                  <h5>55 minutes · Jan 17</h5>
-                  <a href="" style="margin-left: 40% !important; margin-top: -5% !important;"><i class="fas fa-play-circle"></i></a>
-                  <div class="display">
-                      <h4>Episode Info</h4>
-                      <h6 class="h6">Bill’s guests are Nancy Pelosi, Andrew Yang, Joe Walsh, Kara Swisher, and Jon Meacham. (Originally aired 1/17/20)</h6> 
-                  </div>
-
             </span>
             
+
+            <span id="desc">
+                        <p align="center" id="para2">Ep. #518: Pete Buttigieg, Michael Eric Dyson </p>
+                        <h5>55 minutes · Jan 31</h5>
+
+                        <input type="button" id="button2" value="play" class="myButton">
+              <div class="display">
+                        <h4>Episode Info</h4>
+                        <h6 class="h6">Bill’s guests are Megyn Kelly, Ingrid Newkirk, Erick Erickson, 
+                          Alex Wagner, and Michael McFaul. (Originally aired 1/24/20)</h6> 
+               </div>
+            </span>
+                    <!-- ------------------------- -->
+            <span id="desc">
+                        <p align="center" id="para3">Ep. #517: Megyn Kelly, Ingrid Newkirk</p>
+                        <h5>53 minutes · Jan 24</h5>
+
+                        <input type="button" id="button3" value="play" class="myButton">
+               <div class="display">
+                        <h4>Episode Info</h4>
+                        <h6 class="h6">Bill’s guests are Megyn Kelly, Ingrid Newkirk, Erick Erickson, 
+                          Alex Wagner, and Michael McFaul. (Originally aired 1/24/20).</h6> 
+               </div>
+
+            </span>
+                      <!-- -------------------------- -->
+            <span id="desc">
+                        <p align="center" id="para4">Ep. #516: Nancy Pelosi, Andrew Yang</p>
+                        <h5>55 minutes · Jan 17</h5>
+
+                        <input type="button" id="button4" value="play" class="myButton">
+               <div class="display">
+                        <h4>Episode Info</h4>
+                        <h6 class="h6">Bill’s guests are Nancy Pelosi, Andrew Yang, Joe Walsh, 
+                          Kara Swisher, and Jon Meacham. (Originally aired 1/17/20).</h6> 
+               </div>
+
+            </span>
+
           </div>
-       
-
-
-
-
-          <!-- Play list -->
-              
-          <input type="button" name="prev" value="Back" class="btn_Nav"  onclick="backVal()" style="right: -39px; position: relative; bottom: 22px;">
-          <audio controls="">
-            <source src="" type="">
-          </audio>
-          <input type="button" name="next" value="Next" class="btn_Nav" onclick="nextVal()" style="right: 70px; position: relative; bottom: 20px;">
-         </div>
-
-         <div class="f">
-            <div class="dd"> Add an Episode :</div>
-           
-             <div class="form">
-                 <input type="text" name="Name" required="" placeholder="Episode Title" class="inpt1" id="title">
-                 <input type="text" name="Name" required="" placeholder="Time" class="inpt1" id="time">
-                 <input type="text" name="Name" required="" placeholder="Duration" class="inpt1" id="duree">
-                 <textarea placeholder="description" class="txtA" id="description"></textarea>
-                 <button class="btn" onclick="AddPodcast();">Add Your Episode</button>
-             </div>
           
-       </div>
-     </div>
+           <!-- Play list -->
+           <input type="button" name="prev" value="Back" class="btn_Nav"  onclick="prev()" style="right: -39px; position: relative; bottom: 22px;">
 
+           <audio controls="" id="audio">
+            <source ></audio>
+
+           <input type="button" name="next" value="Next" class="btn_Nav" onclick="next()" style="right: 70px; position: relative; bottom: 20px;">
+          </div>
+
+          <div class="f">
+             <div class="dd"> Add an Episode :</div>
+            
+              <div class="form">
+                  <input type="text" name="Name" required="" placeholder="Episode Title" class="inpt1" id="title">
+                  <input type="text" name="Name" required="" placeholder="Time" class="inpt1" id="time">
+                  <input type="text" name="Name" required="" placeholder="Duration" class="inpt1" id="duree">
+                  <textarea placeholder="description" class="txtA" id="description"></textarea>
+                  <input type="button" class="btn" onclick="AddEpisode()" value="Add Your Episode">
+              </div>
+           
+        </div>
+      </div>
+
+      <div class="input">
+        <input id="data" type="text" class="input1" style="left: 918px; top: -720px;">
+        <button onclick="add()" class="addB" style="left: 21%; top: -97px;">Add Music</button>
+        <button onclick="pop()" class="removeB" style="top: -21px; right: 0px;">Pop Music</button>
+    </div>
 
       <!--------------------- Start footer --------------------------->
   <footer class="footer">
             <span class="S1"> &copy; Copyright 2020. All Right Reserved</span>
   </footer>
+
+  <script src="script-podcast.js"></script>
 </body>
 
 </html> 

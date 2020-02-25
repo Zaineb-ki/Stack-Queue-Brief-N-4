@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,6 +15,8 @@
 
         <!-- css Link -->
         <link rel="stylesheet" href="style.css">
+        <!-- Java script link -->
+        <link rel="stylesheet" href="script-podcast.js">
 
     </head>
 
@@ -42,7 +44,7 @@
       <!-- --------------Start header----------------- -->
          <div class="container">
             <div class="img-container">
-                <img src="pics\podcast2.jpg" alt="" style="border: 1px solid black;">
+                <img src="pics\podcast2.jpg" alt="" style="width: 390px; height: 471px;">
             </div>
             <div class="text-container">
                 <h2>RadioLAB </h2>
@@ -60,129 +62,112 @@
         
         </div>
 
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         <div class="section2">
           <!-- -------------------------- -->
           <div class="Container">
           <div class="d">
             Episode of the Show :
           </div>
-          <div>
+          <div id="content">
             <span id="desc">
-                      <p align="center">The Other Latif: Episode 1</p>
+                      <p align="center" id="para1">The Other Latif: Episode 1</p>
                       <h5>43 minutes · Feb 4</h5>
-                      <a href="" style="margin-left: 40% !important; margin-top: -5% !important;"><i class="fas fa-play-circle"></i></a> 
-
-                      <div class="display">
-                          <h4>Episode Info</h4>
-                          <h6 class="h6">Radiolab’s Latif Nasser always believed his name was unique, singular, completely his own. 
-                            Until one day when he makes a bizarre and shocking discovery. He shares his name with another man: Abdul 
-                            Latif Nasser, detainee 244 at Guantanamo Bay. The U.S. government paints a terrifying picture of The Other 
-                            Latif as Al-Qaeda’s top explosives expert, </h6> 
-                      </div>
-            </span>
-                     
-            <span id="desc">
-                      <p align="center">The Bobbys</p>
-                      <h5>72 minutes · 4 days ago</h5>
-                      <a href="" style="margin-left: 40% !important; margin-top: -5% !important;"><i class="fas fa-play-circle"></i></a>  
-
-                      <div class="display">
-                        <h4>Episode Info</h4>
-                        <h6 class="h6">On the occasion of his retirement as cohost of Radiolab, Robert sat down with Jad to reflect on his long and storied career in radio and television, and their work together over the past decade and a half. And we pay tribute to Robert, inspired by a peculiar tradition of his.
-
-                          This episode was produced by Matt Kielty. Sound design & mix by Jeremy Bloom.</h6> 
-                      </div> 
-            </span>
-                   
-            <span id="desc">
-                      <p align="center">Body Count</p>
-                      <h5>48 minutes · Jan 24</h5>
-                      <a href="" style="margin-left: 40% !important; margin-top: -5% !important;"><i class="fas fa-play-circle"></i></a>   
-
-                      <div class="display">
-                        <h4>Episode Info</h4>
-                        <h6 class="h6">Right now, at this very moment, all across the planet, there are 7.6 billion human beings eating, breathing, sleeping, brushing their teeth, walking their dogs, drinking coffee, walking down the street or running onto the subway or hopping in their car, maybe reading a summary of a podcast they’re about to hit play on … and the number is only going up. Everyday 386,000 babies are born (16,000 an hour). We’re adding a billion new people every 12 years.</h6> 
-                      </div>
-            </span>
-          
-            <span id="desc">
-                      <p align="center">60 Words</p>
-                      <h5>60 minutes · Jan 7</h5>
-                      <a href="" style="margin-left: 40% !important; margin-top: -5% !important;"><i class="fas fa-play-circle"></i></a> 
-
-                      <div class="display">
-                        <h4>Episode Info</h4>
-                        <h6 class="h6">This hour we pull apart one sentence, written in the hours after September 11th, 2001, that has led to the longest war in U.S. history. We examine how just 60 words of legal language have blurred the line between war and peace.</h6> 
-                      </div>
+  
+                      <input type="button" id="button1" value="play" class="myButton"> 
+                <!-- ------------------------- -->
+                  <div class="display">
+                      <h4>Episode Info</h4>
+                      <h6 class="h6">Radiolab’s Latif Nasser always believed his name was unique, singular, completely his own. 
+                        Until one day when he makes a bizarre and shocking discovery. He shares his name with another man: Abdul 
+                        Latif Nasser, detainee 244 at Guantanamo Bay. The U.S. government paints a terrifying picture of The Other 
+                        Latif as Al-Qaeda’s top explosives expert, </h6> 
+                  </div>
             </span>
             
 
+            <span id="desc">
+                        <p align="center" id="para2">The Bobbys</p>
+                        <h5>72 minutes · 4 days ago</h5>
+
+                        <input type="button" id="button2" value="play" class="myButton">
+              <div class="display">
+                        <h4>Episode Info</h4>
+                        <h6 class="h6">On the occasion of his retirement as cohost of Radiolab, Robert sat down with Jad to reflect
+                           on his long and storied career in radio and television, and their work together over the past decade and a 
+                           half. And we pay tribute to Robert, inspired by a peculiar tradition of his.
+
+                          This episode was produced by Matt Kielty. Sound design & mix by Jeremy Bloom..</h6> 
+               </div>
+            </span>
+                    <!-- ------------------------- -->
+            <span id="desc">
+                        <p align="center" id="para3">Body Count</p>
+                        <h5>48 minutes · Jan 24</h5>
+
+                        <input type="button" id="button3" value="play" class="myButton">
+               <div class="display">
+                        <h4>Episode Info</h4>
+                        <h6 class="h6">Right now, at this very moment, all across the planet, there are 7.6 
+                          billion human beings eating, breathing, sleeping, brushing their teeth, walking their dogs, 
+                          drinking coffee, walking down the street or running onto the subway or hopping in their 
+                          car, maybe reading a summary of a podcast they’re about to hit play on … and the number 
+                          is only going up. Everyday 386,000 babies are born (16,000 an hour). We’re adding a billion 
+                          new people every 12 years..</h6> 
+               </div>
+
+            </span>
+                      <!-- -------------------------- -->
+            <span id="desc">
+                        <p align="center" id="para4">60 Words</p>
+                        <h5>60 minutes · Jan 7</h5>
+
+                        <input type="button" id="button4" value="play" class="myButton">
+               <div class="display">
+                        <h4>Episode Info</h4>
+                        <h6 class="h6">This hour we pull apart one sentence, written in the hours after September 11th, 
+                          2001, that has led to the longest war in U.S. history. We examine how just 60 words of legal 
+                          language have blurred the line between war and peace.</h6> 
+               </div>
+
+            </span>
+
           </div>
-        
-        
+          
+           <!-- Play list -->
+           <input type="button" name="prev" value="Back" class="btn_Nav"  onclick="prev()" style="right: -39px; position: relative; bottom: 22px;">
 
-          <!-- Play list -->
-              
-              <input type="button" name="prev" value="Back" class="btn_Nav"  onclick="backVal()" style="right: -39px; position: relative; bottom: 22px;">
-              <audio controls="">
-                <source src="" type="">
-              </audio>
-              <input type="button" name="next" value="Next" class="btn_Nav" onclick="nextVal()" style="right: 70px; position: relative; bottom: 20px;">
-             </div>
-   
+           <audio controls="" id="audio">
+            <source ></audio>
 
+           <input type="button" name="next" value="Next" class="btn_Nav" onclick="next()" style="right: 70px; position: relative; bottom: 20px;">
+          </div>
 
+          <div class="f">
+             <div class="dd"> Add an Episode :</div>
+            
+              <div class="form">
+                  <input type="text" name="Name" required="" placeholder="Episode Title" class="inpt1" id="title">
+                  <input type="text" name="Name" required="" placeholder="Time" class="inpt1" id="time">
+                  <input type="text" name="Name" required="" placeholder="Duration" class="inpt1" id="duree">
+                  <textarea placeholder="description" class="txtA" id="description"></textarea>
+                  <input type="button" class="btn" onclick="AddEpisode()" value="Add Your Episode">
+              </div>
+           
+        </div>
+      </div>
 
-             <div class="f">
-                <div class="dd"> Add an Episode :</div>
-               
-                 <div class="form">
-                     <input type="text" name="Name" required="" placeholder="Episode Title" class="inpt1" id="title">
-                     <input type="text" name="Name" required="" placeholder="Time" class="inpt1" id="time">
-                     <input type="text" name="Name" required="" placeholder="Duration" class="inpt1" id="duree">
-                     <textarea placeholder="description" class="txtA" id="description"></textarea>
-                     <button class="btn" onclick="AddPodcast();">Add Your Episode</button>
-                 </div>
-              
-           </div>
-         </div>
-
+      <div class="input">
+        <input id="data" type="text" class="input1" style="left: 919px; top: -45pc;">
+        <button onclick="add()" class="addB" style="left: 21%; top: -97px;">Add Music</button>
+        <button onclick="pop()" class="removeB" style="right: 0px; top: -20px;">Pop Music</button>
+    </div>
 
       <!--------------------- Start footer --------------------------->
   <footer class="footer">
             <span class="S1"> &copy; Copyright 2020. All Right Reserved</span>
   </footer>
+
+  <script src="script-podcast.js"></script>
 </body>
 
 </html> 
-
-
-
-
-   
