@@ -44,7 +44,7 @@
       <!-- --------------Start header----------------- -->
          <div class="container">
             <div class="img-container">
-                <img src="pics\podcast2.jpg" alt="" style="width: 390px; height: 471px;">
+                <img src="pics\podcast2.jpg" alt="" style="border: 1px solid black;">
             </div>
             <div class="text-container">
                 <h2>RadioLAB </h2>
@@ -90,14 +90,14 @@
                         <h5>72 minutes · 4 days ago</h5>
 
                         <input type="button" id="button2" value="play" class="myButton">
-              <div class="display">
+                   <div class="display">
                         <h4>Episode Info</h4>
                         <h6 class="h6">On the occasion of his retirement as cohost of Radiolab, Robert sat down with Jad to reflect
                            on his long and storied career in radio and television, and their work together over the past decade and a 
                            half. And we pay tribute to Robert, inspired by a peculiar tradition of his.
 
                           This episode was produced by Matt Kielty. Sound design & mix by Jeremy Bloom..</h6> 
-               </div>
+                    </div>
             </span>
                     <!-- ------------------------- -->
             <span id="desc">
@@ -134,14 +134,16 @@
           </div>
           
            <!-- Play list -->
-           <input type="button" name="prev" value="Back" class="btn_Nav"  onclick="prev()" style="right: -39px; position: relative; bottom: 22px;">
-
-           <audio controls="" id="audio">
-            <source ></audio>
-
-           <input type="button" name="next" value="Next" class="btn_Nav" onclick="next()" style="right: 70px; position: relative; bottom: 20px;">
+           <input type="submit" name="prev" value="Back" class="btn_Nav" style="right: -21px; position: relative; bottom: 22px;">
+           <audio controls="">
+             <source src="" type="">
+           </audio>
+           <input type="submit" name="next" value="Next" class="btn_Nav" style="right: 60px; position: relative; bottom: 20px;">
           </div>
 
+
+
+          <!-- Add an Episode  -->
           <div class="f">
              <div class="dd"> Add an Episode :</div>
             
@@ -157,9 +159,9 @@
       </div>
 
       <div class="input">
-        <input id="data" type="text" class="input1" style="left: 919px; top: -45pc;">
-        <button onclick="add()" class="addB" style="left: 21%; top: -97px;">Add Music</button>
-        <button onclick="pop()" class="removeB" style="right: 0px; top: -20px;">Pop Music</button>
+        <input id="data" type="text" class="input1" placeholder="URL mp3"style="left: 1159px; top: -720px;">
+        <button onclick="add()" class="addB" style="left: 33%;top: -104px;">Add Music</button>
+        <button onclick="pop()" class="removeB" style="top: -13px; right: 113px;">Pop Music</button>
     </div>
 
       <!--------------------- Start footer --------------------------->

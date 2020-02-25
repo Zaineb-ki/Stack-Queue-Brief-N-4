@@ -242,7 +242,7 @@ body{
 .input .addB{
     font-family: Segoe UI;
     height: 54px;
-    width: 220px;
+    width: 170px;
     border-radius: 10px;
     background-color: #FFD0BE;
     color: white;
@@ -258,7 +258,7 @@ body{
 .input .removeB{
     font-family: Segoe UI;
     height: 54px;
-    width: 220px;
+    width: 170px;
     border-radius: 10px;
     background-color: #FFD0BE;
     color: white;
@@ -370,12 +370,15 @@ audio{
 
 .section2 .myButton{
     float: right;
-    margin-top: -80px;
+    margin-top: -111px;
     border-radius: 50%;
     height: 70px;
-    width: 160px;
+    width: 114px;
     background-color: #FFD0BE;
     color: white;
+    font-size: 20px;
+    font-family: "Hiruko Alternate";
+    margin-right: 5%;
 }
 
 /**************************media of Header*********************************/
